@@ -6,17 +6,26 @@ DEBUG: 0            # turns on debugging mode
 VERBOSE: 0          # turns on verbose mode in the output console
 MODELNAME: muralinpainting
 
-TRAIN_FLIST: /public/home/lucy/mural/dataset/flist/train/images.flist
-VAL_FLIST: /public/home/lucy/mural/dataset/flist/val/images.flist
-TEST_FLIST: /public/home/lucy/mural/dataset/flist/val/images.flist
+# TRAIN_FLIST: /public/home/lucy/mural/dataset/flist/train/images.flist
+# VAL_FLIST: /public/home/lucy/mural/dataset/flist/val/images.flist
+# TEST_FLIST: /public/home/lucy/mural/dataset/flist/val/images.flist
 
-TRAIN_EDGE_FLIST: /public/home/lucy/mural/dataset/flist/train/edges.flist
-VAL_EDGE_FLIST: /public/home/lucy/mural/dataset/flist/val/edges.flist
-TEST_EDGE_FLIST: /public/home/lucy/mural/dataset/flist/val/edges.flist
+# TRAIN_EDGE_FLIST: /public/home/lucy/mural/dataset/flist/train/edges.flist
+# VAL_EDGE_FLIST: /public/home/lucy/mural/dataset/flist/val/edges.flist
+# TEST_EDGE_FLIST: /public/home/lucy/mural/dataset/flist/val/edges.flist
 
-TRAIN_MASK_FLIST: /public/home/lucy/mural/dataset/flist/train/masks.flist
-VAL_MASK_FLIST: /public/home/lucy/mural/dataset/flist/val/masks.flist
-TEST_MASK_FLIST: /public/home/lucy/mural/dataset/flist/val/masks.flist
+TRAIN_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/train/train_images.flist
+VAL_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/val/val_images.flist
+TEST_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/val/val_images.flist
+
+TRAIN_EDGE_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/train/train_edges.flist
+VAL_EDGE_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/val/val_edges.flist
+TEST_EDGE_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/val/val_edges.flist
+
+TRAIN_MASK_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/train/train_masks.flist
+VAL_MASK_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/val/val_masks.flist
+TEST_MASK_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/val/val_masks.flist
+
 
 LR: 0.0001                    # learning rate
 D2G_LR: 0.1                   # discriminator/generator learning rate ratio
