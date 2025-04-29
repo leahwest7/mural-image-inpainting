@@ -14,17 +14,17 @@ MODELNAME: muralinpainting
 # VAL_EDGE_FLIST: /public/home/lucy/mural/dataset/flist/val/edges.flist
 # TEST_EDGE_FLIST: /public/home/lucy/mural/dataset/flist/val/edges.flist
 
-TRAIN_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/train/train_images.flist
-VAL_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/val/val_images.flist
-TEST_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/val/val_images.flist
+TRAIN_FLIST: ./extractedMurals/DhMurals-inpainting-dataset/train/train_images.flist
+VAL_FLIST: ./extractedMurals/DhMurals-inpainting-dataset/val/val_images.flist
+TEST_FLIST: ./extractedMurals/DhMurals-inpainting-dataset/val/val_images.flist
 
-TRAIN_EDGE_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/train/train_edges.flist
-VAL_EDGE_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/val/val_edges.flist
-TEST_EDGE_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/val/val_edges.flist
+TRAIN_EDGE_FLIST: ./extractedMurals/DhMurals-inpainting-dataset/train/train_edges.flist
+VAL_EDGE_FLIST: ./extractedMurals/DhMurals-inpainting-dataset/val/val_edges.flist
+TEST_EDGE_FLIST: ./extractedMurals/DhMurals-inpainting-dataset/val/val_edges.flist
 
-TRAIN_MASK_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/train/train_masks.flist
-VAL_MASK_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/val/val_masks.flist
-TEST_MASK_FLIST: /Users/leahwest/Desktop/mural-image-inpainting/checkpoints/extractedMurals/DhMurals-inpainting-dataset/val/val_masks.flist
+TRAIN_MASK_FLIST: ./extractedMurals/DhMurals-inpainting-dataset/train/train_masks.flist
+VAL_MASK_FLIST: ./extractedMurals/DhMurals-inpainting-dataset/val/val_masks.flist
+TEST_MASK_FLIST: ./extractedMurals/DhMurals-inpainting-dataset/val/val_masks.flist
 
 
 LR: 0.0001                    # learning rate
